@@ -2,10 +2,66 @@
 <html lang='en'>
     <head>
         <meta charset='utf-8'>
-        <title>SEC</title>
+        <title>SEC - Student English Club</title>
+        <link rel="icon" href="images/favicon.ico" />
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100&family=Roboto:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Hello</h1>
+    <main>
+    <h1 id="title">SEC Khảo Sát</h1>
+    <p id = "description">Cảm ơn bạn đã dành thời gian cho chúng mình!</p>
+    <form id = "survey-form">
+        <fieldset>
+            <label id = 'name-label'>Họ và tên: <input class='full-width higher-rounder' id='name' type = 'text' placeholder='Nhập tên của bạn'/></label>
+            <label id = 'email-label'>Email: <input class='full-width higher-rounder' id='email' type = 'email' placeholder='Nhập email của bạn'/></label>
+            <label id = 'number-label'>Tuổi: <input class='full-width higher-rounder' id='number' type = 'number' min='16' max='25' placeholder='Nhập tuổi của bạn'/></label>
+            <label>
+                Vai trò của bạn trong SEC là gì?
+                <select class='full-width higher-rounder' id='role-dropdown'>
+                    <option disabled value="">Chọn một</option>
+                    <option value="1">Thành viên thường</option>
+                    <option value="2">Core mem</option>
+                    <option value="3">Trưởng nhóm</option>
+                </select>
+            </label>
+            <label>Bạn sẽ giới thiệu SEC cho những người khác chứ?</label>
+            <label><input type ='radio' name='recomm'/> Chắc chắn rồi</label>
+            <label><input type ='radio' name='recomm'/> Có thể lắm</label>
+            <label><input type ='radio' name='recomm'/> Không chắc</label>
+
+        </fieldset>
+        <fieldset>
+            <label>Điều bạn thích nhất ở SEC?
+                <select class='full-width higher-rounder' id='favorite-dropdown'>
+                    <option disabled value="">Chọn một thôi nhé</option>
+                    <option value="1">Những kiến thức Tiếng Anh bổ ích</option>
+                    <option value="2">Mọi người quan tâm nhau như gia đình</option>
+                    <option value="3">Đội core nhiệt huyết, năng động, xinh xẻo</option>
+                    <option value="4">Môi trường bổ ích, thoải mái, thỏa sức sáng tạo</option>
+                </select>
+            </label>
+            <label>Bạn muốn chúng mình cải thiện điều gì?</label>
+            <label><input type='checkbox' value='1'/> Nội dung đứng lớp</label>
+            <label><input type='checkbox' value='2'/> Phương thức sinh hoạt</label>
+            <label><input type='checkbox' value='3'/> Cơ chế vận hành</label>
+            <label><input type='checkbox' value='4'/> Phòng sinh hoạt</label>
+            <label><input type='checkbox' value='5'/> Kênh truyền thông và fanpage</label>
+            <label><input type='checkbox' value='6'/> Chủ tịch</label>
+
+            <label>Bạn có bình luận hay gợi ý thêm gì không?
+                <textarea class='full-width higher-rounder' rows='3' cols='30' placeholder='Mình rất muốn clb phát triển thêm về...'></textarea>
+            </label>
+        </fieldset>
+        <input type='submit' id='submit' value='Xác nhận'/>
+    </form>
+    </main>
     </body>
 
 </html>
