@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(33, 16, 79, 0.56), rgba(33, 16, 79, 0.56)), url("images/DSC_4855_1.jpg");
+    background-image: linear-gradient(rgba(33, 16, 79, 0.56), rgba(33, 16, 79, 0.56)), url("images/290712423_2945124302298356_6249571837882866238_n.jpg");
     background-size: 100%;
     font-family: "Roboto",sans-serif;
 }
@@ -20,8 +20,10 @@ h1,p {
 }
 
 form {
+    max-width: 520px;
+    min-width: 150px;
     background-color: rgba(42, 42, 72, 0.89);
-    width: 50%;
+    /*width: 50%;*/
     margin: 20px auto;
     padding: 20px 30px 30px 30px;
 }
