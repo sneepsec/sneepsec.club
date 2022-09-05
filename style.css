@@ -1,6 +1,7 @@
 body {
     background-image: linear-gradient(rgba(33, 16, 79, 0.56), rgba(33, 16, 79, 0.56)), url("images/290712423_2945124302298356_6249571837882866238_n.jpg");
-    background-size: 100%;
+    background-size: 100%, cover;
+    background-position: center;
     font-family: "Roboto",sans-serif;
 }
 h1,p {

@@ -5,6 +5,9 @@
         <title>SEC - Student English Club</title>
         <link rel="icon" href="images/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="SEC - Student English Club">
+        <meta property="og:image" content="./images/290712423_2945124302298356_6249571837882866238_n.jpg">
+        <meta property="og:description" content="Trang web chính thức của CLB Tiếng Anh SEC">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
         <link rel="stylesheet" href="style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,8 +24,8 @@
     <p id = "description">Cảm ơn bạn đã dành thời gian cho chúng mình!</p>
     <form id = "survey-form">
         <fieldset>
-            <label id = 'name-label'>Họ và tên: <input class='full-width higher-rounder' id='name' type = 'text' placeholder='Nhập tên của bạn'/></label>
-            <label id = 'email-label'>Email: <input class='full-width higher-rounder' id='email' type = 'email' placeholder='Nhập email của bạn'/></label>
+            <label id = 'name-label'>Họ và tên: <input class='full-width higher-rounder' required id='name' type = 'text' placeholder='Nhập tên của bạn'/></label>
+            <label id = 'email-label'>Email: <input class='full-width higher-rounder' required id='email' type = 'email' placeholder='Nhập email của bạn'/></label>
             <label id = 'number-label'>Tuổi: <input class='full-width higher-rounder' id='number' type = 'number' min='16' max='25' placeholder='Nhập tuổi của bạn'/></label>
             <label>
                 Vai trò của bạn trong SEC là gì?
@@ -34,9 +37,9 @@
                 </select>
             </label>
             <label>Bạn sẽ giới thiệu SEC cho những người khác chứ?</label>
-            <label><input type ='radio' name='recomm'/> Chắc chắn rồi</label>
-            <label><input type ='radio' name='recomm'/> Có thể lắm</label>
-            <label><input type ='radio' name='recomm'/> Không chắc</label>
+            <label><input type ='radio' name='recomm' value="1"/> Chắc chắn rồi</label>
+            <label><input type ='radio' name='recomm' value="2"/> Có thể lắm</label>
+            <label><input type ='radio' name='recomm' value="3"/> Không chắc</label>
 
         </fieldset>
         <fieldset>
